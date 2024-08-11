@@ -1,10 +1,10 @@
 import { GitHubIcon } from "@/components/icons";
 import { SocialLink } from "@/components/social-link";
-import { WEB_APPS } from "@/data/projects";
+import { PROJECTS } from "@/data/projects";
 import Image from "next/image";
 
 type Props = {
-  project: (typeof WEB_APPS)[number];
+  project: (typeof PROJECTS)[number];
 };
 
 export const ProjectCard = ({ project }: Props) => {

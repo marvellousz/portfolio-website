@@ -33,21 +33,17 @@ export default function Home() {
             Hello, I'm Pranav Murali, a Web Developer and Tech Enthusiast from Kerala, India
           </p>
           <p className="mt-4 mb-4">
-          I am currently pursuing a Bachelor of Technology in Computer Science from Vellore Institute of Technology, Vellore, 
-          where I am learning the fundamentals and applications of various domains. 
-          My aspiration is to become a successful entrepreneur and a leader in the field of technology, 
-          creating impactful and innovative solutions for the society.
+            I am currently pursuing a Bachelor of Technology in Computer Science from Vellore Institute of Technology, Vellore, 
+            where I am learning the fundamentals and applications of various domains. 
+            My aspiration is to become a successful entrepreneur and a leader in the field of technology, 
+            creating impactful and innovative solutions for the society.
           </p>
 
           <p className="mb-4">
-            If you&apos;d like to collaborate, please&nbsp;
-            <a
-              href="mailto:pranavmurali024@gmail.com"
-              className="border-b inline-block"
-            >
-              send me an email
-            </a>
-            &nbsp;or reach out on any of my social handles.
+          If you'd like to collaborate, please{" "}
+          <a href="mailto:pranavmurali024@gmail.com" className="border-b inline-block">send me an email</a>
+          {" "}or reach out on any of my social handles.
+
           </p>
         </div>
 
