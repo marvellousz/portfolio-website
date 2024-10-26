@@ -56,6 +56,15 @@ export const PROJECTS = [
       "Developed a food blog platform, enabling users to share recipes and food experiences.Implemented a variety of features to enhance user experience and ensure smooth execution.",
     tags: ["HTML5", "CSS3", "Tailwind"],
   },
+
+  {
+    title: "WalletWise",
+    repo: "https://github.com/Marvellousz/WalletWise",
+    thumbnail: "/_static/projects/walletwise.png",
+    description:
+    "This project is a web application that allows users to connect their crypto wallets and view their token balances. Built using Next.js, React, and Tailwind CSS, the application provides a modern and responsive user interface, enhanced by features like loading indicators, error handling, and toast notifications.",
+    tags: ["Next.js", "React", "Tailwind CSS"],
+  }
   
 ] as const;
 
