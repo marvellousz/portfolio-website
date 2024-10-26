@@ -61,11 +61,11 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    title: "Frontend Developer Intern at Moon Finance",
+    title: "Full-Stack Developer Intern at Moon Finance",
     repo: "https://github.com/Marvellousz",
     external: "https://drive.google.com/file/d/1pfOeplCA9C53lD2ScCyFknitjuAg4kBz/view",
     description:
-      "Developed and deployed highly responsive and interactive user interfaces using cutting-edge web technologies like React.js and Next.js. Ensured seamless user experiences across various devices and screen sizes by employing mobile-first design principles and advanced CSS techniques.",
+      "Developed, deployed, and maintained highly responsive and interactive web applications using cutting-edge technologies like React.js, Next.js, Node.js, and Express. Ensured seamless user experiences across various devices and screen sizes by employing mobile-first design principles, advanced CSS techniques, and robust backend services.",
   },
   {
     title: "Technical Executive at E-Cell VIT",
