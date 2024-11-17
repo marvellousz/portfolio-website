@@ -1,4 +1,4 @@
 export const LINKS = {
   RESUME:
-    "https://drive.google.com/file/d/1a4qztenOQsqLadDJtgBId7RIe0W7yeLU/view?usp=sharing",
+    "https://drive.google.com/file/d/1mMpx9tWYQz92VV9FYvcGC6UZ3RsJHpiJ/view?usp=sharing",
 };
