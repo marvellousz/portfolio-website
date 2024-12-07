@@ -64,8 +64,25 @@ export const PROJECTS = [
     description:
     "This project is a web application that allows users to connect their crypto wallets and view their token balances. Built using Next.js, React, and Tailwind CSS, the application provides a modern and responsive user interface, enhanced by features like loading indicators, error handling, and toast notifications.",
     tags: ["Next.js", "React", "Tailwind CSS"],
+  },
+
+  {
+    title: "FitTrack",
+    repo: "https://github.com/Marvellousz/FitTrack_Frontend",
+    thumbnail: "/_static/projects/fittrack.png",
+    description:
+    "FitTrack is a user-friendly fitness tracking platform designed to help individuals monitor and improve their workout routines. With FitTrack, users can effortlessly log their exercise details, including the type of exercise, load (weight lifted), and the number of repetitions completed. Each user gets their own personalized account, ensuring their fitness data remains private and organized.",
+    tags: ["Express.js", "React", "Tailwind CSS", "MongoDB"],
+  },
+
+  {
+    title: "Golang Todo List",
+    repo: "https://github.com/Marvellousz/Golang_Todolist_Frontend",
+    thumbnail: "/_static/projects/golangtodo.png",
+    description:
+      "A Todo List application built using Golang and React. The application allows users to create, update, and delete tasks, ensuring a seamless and efficient task management experience. The frontend is built using React and Tailwind CSS, providing a modern and responsive user interface.",
+    tags: ["Go", "React.js", "Tailwind", "MongoDB"],
   }
-  
 ] as const;
 
 export const EXPERIENCE = [
