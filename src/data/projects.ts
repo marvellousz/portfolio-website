@@ -1,5 +1,21 @@
 export const PROJECTS = [
   {
+    title: "CaseCobra",
+    tags: ["Next.js", "Postgres", "Typescript", "Tailwind", "Stripe", "UploadThing", "Resend"],
+    description:
+      "Developed a full-fledged e-commerce platform using Next.js 14, featuring a modern UI with shadcn-ui and a custom phone case configurator. Implemented secure authentication with Kinde and built a secret admin dashboard for order management, enhancing business operations.",
+    thumbnail: "/_static/projects/casecobra.png",
+    repo: "https://github.com/Marvellousz/Case-Cobra",
+  },
+  {
+    title: "Arkhive Drive",
+    tags: ["Next.js", "Typescript", "Tailwind", "Drizzle ORM with SingleStore", "Clerk", "PostHog"],
+    description:
+      "Developed a modern full-stack web application using the T3 Stack, featuring Next.js 14, TypeScript, and Drizzle ORM for scalable and efficient development. Integrated secure authentication with Clerk and implemented PostHog analytics for real-time event tracking and user insights. Optimized UI and performance with Tailwind CSS for rapid styling and SingleStore for high-performance database interactions.",
+    thumbnail: "/_static/projects/arkhive.png",
+    repo: "https://github.com/Marvellousz/Arkhive-Drive",
+  },
+  {
     title: "E-Summit’24",
     tags: ["Next.js", "Tailwind", "Node.js", "MongoDB"],
     description:
@@ -87,7 +103,7 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    title: "Full-Stack Developer Intern at Moon Finance",
+    title: "Full-Stack Developer at Moon Finance",
     repo: "https://github.com/Marvellousz",
     external: "https://drive.google.com/file/d/1pfOeplCA9C53lD2ScCyFknitjuAg4kBz/view",
     description:
