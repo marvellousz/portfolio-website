@@ -8,9 +8,6 @@ import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { Space_Grotesk } from "next/font/google";
 import { siteMetadata } from "@/data/siteMetadata";
 import Head from "./head";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { ENV } from "@/lib/env";
-import { GoogleAdsense } from "@/components/google-adsense";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -62,25 +59,30 @@ export default function RootLayout({
       <Head />
       <body
         className={cn(
-          "mx-auto min-h-screen max-w-3xl antialiased dark:bg-zinc-950 dark:text-gray-100",
+          "min-h-screen antialiased bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300",
           space_grotesk.className,
         )}
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark" // default to dark mode, can be light, dark, system
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <main className="mx-4  px-2 md:px-0 lg:mx-auto flex flex-col justify-between min-h-screen">
+          <div className="fixed inset-0 bg-gradient-to-br from-amber-50/50 via-transparent to-orange-50/50 dark:from-amber-950/20 dark:via-transparent dark:to-orange-950/20 pointer-events-none" />
+          
+          <div className="relative min-h-screen flex flex-col">
             <Header />
-            {children}
+            
+            <main className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+              <div className="animate-fade-in">
+                {children}
+              </div>
+            </main>
+            
             <Footer />
-          </main>
-          <TailwindIndicator />
+          </div>            <TailwindIndicator />
         </ThemeProvider>
-        <GoogleAnalytics gaId={ENV.GOOGLE_ANALYTICS_ID} />
-        <GoogleAdsense pId={ENV.ADSENSE_CLIENT_ID} />
       </body>
     </html>
   );
