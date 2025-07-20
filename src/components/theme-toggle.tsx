@@ -28,12 +28,12 @@ export function ThemeToggler() {
         }
         setTheme("dark");
       }}
-      className="relative w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+      className="relative w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 transition-all duration-200 hover:scale-105 focus:outline-none"
     >
       <div className="absolute inset-0 flex items-center justify-center">
         {theme === "dark" ? (
           <SunIcon 
-            className="w-5 h-5 text-amber-500 transition-transform duration-200 hover:rotate-12" 
+            className="w-5 h-5 text-white transition-transform duration-200 hover:rotate-12" 
           />
         ) : (
           <MoonIcon 
