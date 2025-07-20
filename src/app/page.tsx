@@ -74,7 +74,7 @@ export default function Home() {
             </a>
             <span className="text-gray-400">•</span>
             <a 
-              href="https://github.com/pranavmurali024" 
+              href="https://github.com/Marvellousz" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline"
@@ -83,7 +83,7 @@ export default function Home() {
             </a>
             <span className="text-gray-400">•</span>
             <a 
-              href="https://linkedin.com/in/pranavmurali024" 
+              href="https://www.linkedin.com/in/pranavmurali2004/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline"
