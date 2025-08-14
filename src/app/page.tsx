@@ -15,7 +15,7 @@ export default function Home() {
             width={120}
             height={120}
             alt="Pranav Murali"
-            className="rounded-full"
+            className="rounded-full object-cover border-2 border-gray-200 dark:border-gray-700 shadow-lg"
             priority
           />
         </div>
