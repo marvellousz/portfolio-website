@@ -13,7 +13,7 @@ This application requires Node.js v16.13+.
 
 ```bash
 git clone https://github.com/Marvellousz/Portfolio-Website.git
-cd pranavmurali.me
+cd Portfolio-Website
 pnpm install
 pnpm dev
 ```
