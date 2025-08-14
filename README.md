@@ -1,4 +1,4 @@
-# pranavmurali.me
+# pranavmurali.dev
 
 This is my personal website and blog built using:
 
