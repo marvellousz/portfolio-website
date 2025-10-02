@@ -1,30 +1,51 @@
-# pranavmurali.dev
+# Portfolio Website
 
-This is my personal website and blog built using:
+A modern portfolio website built with Next.js featuring a unique glitch art aesthetic and interactive terminal interface.
 
-- Framework : [Next.js](https://nextjs.org/)
-- Styling : [Tailwind CSS](https://tailwindcss.com/)
-- Markdown : [MDX](https://mdxjs.com/) and [Contentlayer](https://contentlayer.dev/)
-- Deployment: [Vercel](https://vercel.com/)
+## Features
 
-## Running Locally
+- **Glitch Art Design**: Cyberpunk-inspired UI with intentional glitch effects
+- **Interactive Terminal**: Navigate the portfolio using CLI commands
+- **Matrix Rain Background**: Animated falling code effect
+- **Boot Sequence**: VHS-style startup animation
+- **Responsive Design**: Optimized for all device sizes
 
-This application requires Node.js v16.13+.
+## Getting Started
+
+First, run the development server:
 
 ```bash
-git clone https://github.com/Marvellousz/Portfolio-Website.git
-cd Portfolio-Website
-pnpm install
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
+# or
+bun dev
 ```
 
-## Author
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Website: https://pranavmurali.me/
-- X: [@Pranav_Murali__](https://x.com/home)
-- Github: [@Marvellousz](https://github.com/Marvellousz)
-- LinkedIn: [@Pranav Murali ](https://www.linkedin.com/in/pranav-murali-bb9b25266/)
+## Available Terminal Commands
 
-Give a ⭐️ if you like the project!
+- `about.me` - Display personal information and bio
+- `projects` - Show portfolio projects (use `--filter=ai`, `--filter=web`, `--filter=hardware`)
+- `skills` - Display technical skills and expertise
+- `hire()` - Get contact information and availability
+- `help` - Show available commands
+- `clear` - Clear the terminal screen
 
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
