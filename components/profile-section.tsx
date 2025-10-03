@@ -78,7 +78,7 @@ export function ProfileSection() {
           {/* Top Section with Profile Picture and Name */}
           <div className="flex items-start gap-4 mb-6">
             <div className="w-20 h-20 glitch-border glitch-hover bg-primary/50 overflow-hidden">
-              <img src="/Thorfinn.jpg" alt="Profile" className="w-full h-full object-cover" />
+              <img src="/Lelouch.jpg" alt="Profile" className="w-full h-full object-cover" />
             </div>
 
             <div className="flex-1">

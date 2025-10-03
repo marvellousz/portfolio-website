@@ -1,4 +1,4 @@
-# Portfolio Website
+# portfolio website
 
 A modern portfolio website built with Next.js featuring a unique glitch art aesthetic and interactive terminal interface.
 
