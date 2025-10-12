@@ -94,11 +94,6 @@ export default function PhilosophyPage() {
                   <p className="text-gray-600 leading-relaxed mb-3">
                     {post.excerpt}
                   </p>
-                  {post.status && (
-                    <p className="text-sm text-gray-500 font-medium">
-                      {post.status}
-                    </p>
-                  )}
                 </div>
               </div>
             ))}
