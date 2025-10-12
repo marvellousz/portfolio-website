@@ -41,21 +41,21 @@ export default function PhilosophyPage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-bold text-black mb-8" style={{fontFamily: 'var(--font-playfair)'}}>
-            Life Philosophies <span className="italic text-5xl md:text-6xl">& more</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-black mb-6 sm:mb-8" style={{fontFamily: 'var(--font-playfair)'}}>
+            Life Philosophies <span className="italic text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">& more</span>
           </h1>
-          <p className="text-base uppercase tracking-[0.3em] text-gray-400 font-medium">
+          <p className="text-sm sm:text-base uppercase tracking-[0.3em] text-gray-400 font-medium px-4 sm:px-0">
             PRINCIPLES AND THOUGHTS
           </p>
         </div>
       </section>
 
       {/* Content Cards */}
-      <section className="pb-20 px-6">
+      <section className="pb-12 sm:pb-16 md:pb-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {philosophyPosts.map((post, index) => (
               <div 
                 key={index}
@@ -87,11 +87,11 @@ export default function PhilosophyPage() {
                 )}
 
                 {/* Post Content */}
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-black mb-4" style={{fontFamily: 'var(--font-playfair)'}}>
+                <div className="p-4 sm:p-6 md:p-8">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-3 sm:mb-4" style={{fontFamily: 'var(--font-playfair)'}}>
                     {post.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed mb-3">
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                     {post.excerpt}
                   </p>
                 </div>

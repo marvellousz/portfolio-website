@@ -30,21 +30,21 @@ export function ContactSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-20 px-6 bg-black text-white">
+    <section ref={sectionRef} className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-black text-white">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col space-y-16">
+        <div className="flex flex-col space-y-12 sm:space-y-16">
           {/* Top Section - Call to Action */}
-          <div className="space-y-8">
-            <h2 className={`text-5xl md:text-6xl font-bold leading-tight text-white transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{fontFamily: 'var(--font-playfair)'}}>
+          <div className="space-y-6 sm:space-y-8">
+            <h2 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{fontFamily: 'var(--font-playfair)'}}>
               Let's have a word?
             </h2>
             
             {/* CTA Button */}
             <Button 
               size="lg" 
-              className={`bg-orange-500 hover:bg-orange-600 text-white rounded-full w-14 h-14 p-0 group cursor-pointer transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`bg-orange-500 hover:bg-orange-600 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 p-0 group cursor-pointer transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
             >
-              <ArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="h-5 w-5 sm:h-6 sm:w-6 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
 
@@ -52,16 +52,16 @@ export function ContactSection() {
           <div className="space-y-3">
             {/* Name */}
             <div className={`transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <h3 className="text-xl font-medium text-white">Pranav Murali</h3>
+              <h3 className="text-lg sm:text-xl font-medium text-white">Pranav Murali</h3>
             </div>
 
             {/* Email */}
             <div className={`transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <p className="text-lg text-gray-300">pranavmurali024@gmail.com</p>
+              <p className="text-base sm:text-lg text-gray-300">pranavmurali024@gmail.com</p>
             </div>
 
             {/* Social Links */}
-            <div className={`flex flex-wrap gap-8 pt-4 transition-all duration-700 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+            <div className={`flex flex-wrap gap-6 sm:gap-8 pt-4 transition-all duration-700 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               <a 
                 href="https://github.com/marvellousz" 
                 target="_blank"

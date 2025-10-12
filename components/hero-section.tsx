@@ -9,8 +9,8 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-4xl mx-auto text-center">
         {/* Profile Picture */}
-        <div className="mb-8">
-          <div className="w-40 h-32 mx-auto rounded-[50%] overflow-hidden border-4 border-white shadow-2xl">
+        <div className="mb-6 sm:mb-8">
+          <div className="w-24 h-20 sm:w-32 sm:h-24 md:w-40 md:h-32 mx-auto rounded-[50%] overflow-hidden border-2 sm:border-4 border-white shadow-2xl">
             <Image 
               src="/6.jpg" 
               alt="Pranav Murali" 
@@ -30,15 +30,15 @@ export function HeroSection() {
         </div>
 
         {/* Job Title */}
-        <div className="mb-8">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-foreground leading-tight">
+        <div className="mb-6 sm:mb-8">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold text-foreground leading-tight">
             Software Engineer
           </h1>
         </div>
 
         {/* Description */}
-               <div className="mb-12">
-                 <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+               <div className="mb-8 sm:mb-12">
+                 <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
                    Full-stack developer with experience in Next.js, React, Python, and cloud technologies.
                    Currently working on innovative projects at LoopLess and Valley AI.
                  </p>

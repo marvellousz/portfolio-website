@@ -7,16 +7,16 @@ export default function ResumePage() {
       
 
       {/* Resume Content */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 md:p-12">
+          <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-4 sm:p-6 md:p-8 lg:p-12">
             
             {/* Header */}
-            <div className="text-center mb-12 border-b border-gray-200 pb-8">
-                     <h2 className="text-5xl font-bold text-black mb-4" style={{fontFamily: 'var(--font-playfair)'}}>
+            <div className="text-center mb-8 sm:mb-12 border-b border-gray-200 pb-6 sm:pb-8">
+                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-3 sm:mb-4" style={{fontFamily: 'var(--font-playfair)'}}>
                        Pranav Murali
                      </h2>
-                     <div className="flex flex-wrap justify-center gap-4 text-gray-600">
+                     <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-gray-600 text-sm sm:text-base">
                 <a href="mailto:pranavmurali024@gmail.com" className="hover:text-blue-600">
                   pranavmurali024@gmail.com
                 </a>
@@ -38,17 +38,17 @@ export default function ResumePage() {
             </div>
 
             {/* Education Section */}
-            <div className="mb-12">
-                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
+            <div className="mb-8 sm:mb-12">
+                     <h3 className="text-xl sm:text-2xl font-bold text-black mb-4 sm:mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Education
               </h3>
               
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="flex justify-between items-start mb-2">
-                  <h4 className="text-xl font-bold text-black">
+              <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1 sm:gap-0">
+                  <h4 className="text-lg sm:text-xl font-bold text-black">
                     VIT Vellore, Tamil Nadu
                   </h4>
-                  <span className="text-gray-500 font-medium">
+                  <span className="text-gray-500 font-medium text-sm sm:text-base">
                     CGPA 8.16
                   </span>
                 </div>
@@ -349,13 +349,13 @@ export default function ResumePage() {
                 Technical Skills
               </h3>
               
-              <div className="grid md:grid-cols-2 gap-8">
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-bold text-black mb-2">Languages</h4>
+                    <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Languages</h4>
                     <div className="flex flex-wrap gap-2">
                       {['TypeScript', 'JavaScript', 'Python', 'Java', 'C/C++', 'Go', 'SQL', 'R', 'MATLAB'].map((skill) => (
-                        <span key={skill} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                        <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-blue-100 text-blue-800 rounded-full text-xs sm:text-sm font-medium">
                           {skill}
                         </span>
                       ))}
@@ -363,10 +363,10 @@ export default function ResumePage() {
                   </div>
                   
                   <div>
-                    <h4 className="font-bold text-black mb-2">Frameworks</h4>
+                    <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Frameworks</h4>
                     <div className="flex flex-wrap gap-2">
                       {['Next.js', 'React', 'SvelteKit', 'Node.js', 'Express', 'FastAPI', 'Django', 'Flask', 'Tailwind', 'Shadcn', 'RadixUI'].map((skill) => (
-                        <span key={skill} className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+                        <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-green-100 text-green-800 rounded-full text-xs sm:text-sm font-medium">
                           {skill}
                         </span>
                       ))}
@@ -376,10 +376,10 @@ export default function ResumePage() {
                 
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-bold text-black mb-2">Tools</h4>
+                    <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Tools</h4>
                     <div className="flex flex-wrap gap-2">
                       {['AWS', 'Git', 'GitHub', 'MongoDB', 'Firebase', 'MySQL', 'PostgreSQL', 'Docker', 'Postman'].map((skill) => (
-                        <span key={skill} className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+                        <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-purple-100 text-purple-800 rounded-full text-xs sm:text-sm font-medium">
                           {skill}
                         </span>
                       ))}
@@ -387,10 +387,10 @@ export default function ResumePage() {
                   </div>
                   
                   <div>
-                    <h4 className="font-bold text-black mb-2">Platforms</h4>
+                    <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Platforms</h4>
                     <div className="flex flex-wrap gap-2">
                       {['Ubuntu', 'Windows', 'Arch Linux', 'Web'].map((skill) => (
-                        <span key={skill} className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">
+                        <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-orange-100 text-orange-800 rounded-full text-xs sm:text-sm font-medium">
                           {skill}
                         </span>
                       ))}
