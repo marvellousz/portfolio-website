@@ -1,14 +1,23 @@
-# portfolio website
+# modern portfolio website
 
-A modern portfolio website built with Next.js featuring a unique glitch art aesthetic and interactive terminal interface.
+A clean, modern portfolio website built with Next.js featuring a minimalist design and professional aesthetic.
 
 ## Features
 
-- **Glitch Art Design**: Cyberpunk-inspired UI with intentional glitch effects
-- **Interactive Terminal**: Navigate the portfolio using CLI commands
-- **Matrix Rain Background**: Animated falling code effect
-- **Boot Sequence**: VHS-style startup animation
-- **Responsive Design**: Optimized for all device sizes
+- **Modern Design**: Clean, minimalist UI with professional typography
+- **Responsive Layout**: Optimized for all device sizes and screen resolutions
+- **Interactive Components**: Smooth animations and hover effects
+- **Professional Sections**: Hero, About, Projects, and Contact sections
+- **Dark/Light Theme**: Beautiful color scheme with proper contrast
+- **Performance Optimized**: Built with Next.js 14 and modern React patterns
+
+## Sections
+
+- **Navigation**: Clean header with social links and navigation menu
+- **Hero Section**: Eye-catching introduction with profile photo and job title
+- **About Section**: Professional description and skills showcase
+- **Projects Section**: Featured work with project cards and links
+- **Contact Section**: Dark-themed contact area with social media links
 
 ## Getting Started
 
@@ -25,15 +34,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Available Terminal Commands
-
-- `about.me` - Display personal information and bio
-- `projects` - Show portfolio projects (use `--filter=ai`, `--filter=web`, `--filter=hardware`)
-- `skills` - Display technical skills and expertise
-- `hire()` - Get contact information and availability
-- `help` - Show available commands
-- `clear` - Clear the terminal screen
 
 ## Learn More
 

@@ -58,6 +58,8 @@ const config: Config = {
   		},
   		fontFamily: {
   			'mono': ['Courier New', 'monospace'],
+  			'luckiest': ['"Luckiest Guy"', 'cursive'],
+  			'ephesis': ['"Ephesis"', 'cursive'],
   		}
   	}
   },
