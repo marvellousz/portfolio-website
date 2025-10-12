@@ -37,12 +37,12 @@ export function HeroSection() {
         </div>
 
         {/* Description */}
-        <div className="mb-12">
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-ephesis">
-            Full-stack developer with experience in Next.js, React, Python, and cloud technologies.
-            Currently working on innovative projects at LoopLess and Valley AI.
-          </p>
-        </div>
+               <div className="mb-12">
+                 <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                   Full-stack developer with experience in Next.js, React, Python, and cloud technologies.
+                   Currently working on innovative projects at LoopLess and Valley AI.
+                 </p>
+               </div>
 
         {/* Scroll indicator */}
         <div className="flex justify-center">

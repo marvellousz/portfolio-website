@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -80,8 +78,6 @@
   --font-sans: var(--font-poppins);
   --font-body: var(--font-inter);
   --font-elegant: var(--font-playfair);
-  --font-luckiest: var(--font-luckiest-guy);
-  --font-ephesis: var(--font-ephesis);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -166,25 +162,6 @@
     border: 1px solid rgba(148, 163, 184, 0.1);
   }
   
-  .luckiest-guy-regular {
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ephesis-regular {
-    font-family: "Ephesis", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .font-luckiest {
-    font-family: "Luckiest Guy", cursive;
-  }
-  
-  .font-ephesis {
-    font-family: "Ephesis", cursive;
-  }
 }
 
 @keyframes fade-in-up {

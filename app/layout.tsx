@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Poppins, Inter, Playfair_Display, Luckiest_Guy, Ephesis } from "next/font/google"
+import { Poppins, Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
@@ -23,17 +23,6 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 })
 
-const luckiestGuy = Luckiest_Guy({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-luckiest-guy",
-})
-
-const ephesis = Ephesis({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-ephesis",
-})
 
 export const metadata: Metadata = {
   title: "Marvellous",
@@ -48,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
-      <body className={`${poppins.variable} ${inter.variable} ${playfair.variable} ${luckiestGuy.variable} ${ephesis.variable} font-sans`}>
+      <body className={`${poppins.variable} ${inter.variable} ${playfair.variable} font-sans`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>

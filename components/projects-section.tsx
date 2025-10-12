@@ -59,12 +59,12 @@ export function ProjectsSection() {
     <section className="py-20 px-6 bg-white/10 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-luckiest">
-            Featured Projects
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-ephesis">
-            A selection of projects that showcase my development skills and technical expertise across full-stack applications
-          </p>
+                 <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6" style={{fontFamily: 'var(--font-playfair)'}}>
+                   Featured Projects
+                 </h2>
+                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                   A selection of projects that showcase my development skills and technical expertise across full-stack applications
+                 </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">

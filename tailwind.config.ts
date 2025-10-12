@@ -56,11 +56,9 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-  		fontFamily: {
-  			'mono': ['Courier New', 'monospace'],
-  			'luckiest': ['"Luckiest Guy"', 'cursive'],
-  			'ephesis': ['"Ephesis"', 'cursive'],
-  		}
+        fontFamily: {
+          'mono': ['Courier New', 'monospace'],
+        }
   	}
   },
   plugins: [require("tailwindcss-animate")],

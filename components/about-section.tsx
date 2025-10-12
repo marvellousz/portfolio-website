@@ -10,15 +10,15 @@ export function AboutSection() {
           {/* Left side - Content */}
           <div className="space-y-6">
             <div>
-              <h2 className="text-4xl md:text-5xl font-extrabold text-foreground mb-6 font-luckiest">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-foreground mb-6" style={{fontFamily: 'var(--font-playfair)'}}>
                 About Me
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6 font-ephesis">
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
                 I'm a passionate full-stack developer currently pursuing my Bachelor's in Computer Science 
                 at VIT Vellore. With experience across multiple companies and startups, I specialize in 
                 building scalable web applications and innovative solutions.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed font-ephesis">
+              <p className="text-lg text-gray-600 leading-relaxed">
                 Currently working as a Software Engineer Intern at LoopLess and Full-Stack Developer at 
                 Valley AI, I focus on creating efficient systems and user-friendly applications. I believe 
                 in the power of technology to solve real-world problems and improve people's lives.

@@ -13,10 +13,10 @@ export default function ResumePage() {
             
             {/* Header */}
             <div className="text-center mb-12 border-b border-gray-200 pb-8">
-              <h2 className="text-5xl font-bold text-black mb-4 font-luckiest">
-                Pranav Murali
-              </h2>
-              <div className="flex flex-wrap justify-center gap-4 text-gray-600 font-ephesis">
+                     <h2 className="text-5xl font-bold text-black mb-4" style={{fontFamily: 'var(--font-playfair)'}}>
+                       Pranav Murali
+                     </h2>
+                     <div className="flex flex-wrap justify-center gap-4 text-gray-600">
                 <a href="mailto:pranavmurali024@gmail.com" className="hover:text-blue-600">
                   pranavmurali024@gmail.com
                 </a>
@@ -39,7 +39,7 @@ export default function ResumePage() {
 
             {/* Education Section */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Education
               </h3>
               
@@ -52,7 +52,7 @@ export default function ResumePage() {
                     CGPA 8.16
                   </span>
                 </div>
-                <p className="text-gray-600 font-ephesis">
+                         <p className="text-gray-600">
                   Bachelor of Technology in Computer Science and Engineering
                 </p>
                 <p className="text-gray-500 text-sm mt-1">
@@ -63,7 +63,7 @@ export default function ResumePage() {
 
             {/* Experience Section */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Experience
               </h3>
               
@@ -192,7 +192,7 @@ export default function ResumePage() {
 
             {/* Open Source */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Open-Source Contributions
               </h3>
               
@@ -221,7 +221,7 @@ export default function ResumePage() {
 
             {/* Projects Section */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Projects
               </h3>
               
@@ -235,7 +235,7 @@ export default function ResumePage() {
                       June 2025
                     </span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-3 font-ephesis">
+                         <p className="text-sm text-gray-600 mb-3">
                     Next.js, FastAPI, FAISS, MongoDB, Docker
                   </p>
                   <p className="text-gray-600">
@@ -252,7 +252,7 @@ export default function ResumePage() {
                       May 2025
                     </span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-3 font-ephesis">
+                         <p className="text-sm text-gray-600 mb-3">
                     Next.js, TailwindCSS, MongoDB, Vercel
                   </p>
                   <p className="text-gray-600">
@@ -269,7 +269,7 @@ export default function ResumePage() {
                       April 2025
                     </span>
                   </div>
-                  <p className="text-sm text-gray-600 mb-3 font-ephesis">
+                         <p className="text-sm text-gray-600 mb-3">
                     Next.js, TailwindCSS, Google Cloud Console
                   </p>
                   <p className="text-gray-600">
@@ -281,7 +281,7 @@ export default function ResumePage() {
 
             {/* Certifications */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Certifications
               </h3>
               
@@ -318,7 +318,7 @@ export default function ResumePage() {
 
             {/* Extracurriculars */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Extracurriculars
               </h3>
               
@@ -327,7 +327,7 @@ export default function ResumePage() {
                   <h4 className="font-bold text-black mb-3">
                     Technical Executive - Entrepreneurship Cell, VIT
                   </h4>
-                  <p className="text-gray-600 font-ephesis">
+                         <p className="text-gray-600">
                     As a Technical Executive at <strong>Entrepreneurship Cell -- VIT</strong>, helped organize and build platforms for <strong>Vision Quest</strong>, <strong>Futurepreneurs</strong>, and flagship event <strong>E-Summit</strong>, which drew <strong>1000+ participants</strong> and featured industry leaders.
                   </p>
                 </div>
@@ -336,7 +336,7 @@ export default function ResumePage() {
                   <h4 className="font-bold text-black mb-3">
                     Hackathon Participation
                   </h4>
-                  <p className="text-gray-600 font-ephesis">
+                         <p className="text-gray-600">
                     Participated in multiple hackathons including <strong>Caterpillar Hack</strong>, <strong>DevSoc by CodeChef VIT</strong>, and <strong>VIT Central Hack</strong>, developing various innovative projects and solutions under tight deadlines.
                   </p>
                 </div>
@@ -345,7 +345,7 @@ export default function ResumePage() {
 
             {/* Technical Skills */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-black mb-6 font-luckiest border-b-2 border-blue-500 pb-2">
+                     <h3 className="text-2xl font-bold text-black mb-6 border-b-2 border-blue-500 pb-2" style={{fontFamily: 'var(--font-playfair)'}}>
                 Technical Skills
               </h3>
               
