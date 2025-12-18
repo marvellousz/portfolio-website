@@ -5,27 +5,34 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
+    title: "Things",
+    description: "A collection of beautifully designed, blocky components that embrace a bold, raw aesthetic. Built with React and Tailwind CSS, featuring copy-paste components with zero dependencies.",
+    image: "/api/placeholder/400/300",
+    tags: ["Next.js", "React", "TailwindCSS", "TypeScript"],
+    link: "https://things.marvlock.dev/",
+    github: "https://github.com/marvellousz/things"
+  },
+  {
+    title: "Project Marvlock",
+    description: "A freelance studio website crafting modern products for forward-thinking brands. Built with precision engineering, featuring clean design and seamless user experiences.",
+    image: "/api/placeholder/400/300",
+    tags: ["Next.js", "React 19", "TypeScript", "TailwindCSS"],
+    link: "https://www.marvlock.dev/",
+    github: "https://github.com/marvellousz/www"
+  },
+  {
     title: "Memora",
     description: "A locally run full-stack application for building a personal knowledge base with semantic search and question answering capabilities using completely free and open-source AI tools.",
     image: "/api/placeholder/400/300",
     tags: ["Next.js", "FastAPI", "AI/ML", "TypeScript"],
-    link: "https://github.com/marvellousz/memora",
     github: "https://github.com/marvellousz/memora"
-  },
-  {
-    title: "Percepta",
-    description: "A full-stack AI chat platform with FastAPI backend and Next.js frontend, featuring LiveKit, Mem0 integration and multi-agent AI capabilities.",
-    image: "/api/placeholder/400/300", 
-    tags: ["Next.js", "FastAPI", "AI/ML", "WebSocket"],
-    link: "https://github.com/marvellousz/percepta",
-    github: "https://github.com/marvellousz/percepta"
   },
   {
     title: "NullBin",
     description: "A privacy-first, client-side encrypted, optionally self-hostable Pastebin alternative with a clean, modern UX.",
     image: "/api/placeholder/400/300",
     tags: ["Next.js", "Privacy", "Encryption", "TypeScript"],
-    link: "https://github.com/marvellousz/nullbin",
+    link: "https://nullbin.marvlock.dev/",
     github: "https://github.com/marvellousz/nullbin"
   },
   {
@@ -33,23 +40,14 @@ const projects = [
     description: "A modern web application that streamlines the process of scheduling meetings and sending emails in one unified workflow.",
     image: "/api/placeholder/400/300",
     tags: ["Next.js", "TailwindCSS", "Google APIs", "TypeScript"],
-    link: "https://github.com/marvellousz/schedulo",
+    link: "https://schedulo.marvlock.dev/",
     github: "https://github.com/marvellousz/schedulo"
-  },
-  {
-    title: "AutoHub",
-    description: "AutoHub is a modern web platform built with SvelteKit that enables developers to discover, share, and collaborate on automation scripts.",
-    image: "/autohub.png",
-    tags: ["SvelteKit", "Automation", "Developer Tools", "JavaScript"],
-    link: "https://github.com/marvellousz/autohub",
-    github: "https://github.com/marvellousz/autohub"
   },
   {
     title: "Browser Agent",
     description: "A powerful command-line tool for controlling web browsers from your terminal in arch-linux. Open websites, search the web, and automate browser tasks with simple commands.",
     image: "/api/placeholder/400/300",
     tags: ["Python", "CLI", "Automation", "Browser Control"],
-    link: "https://github.com/marvellousz/browser-agent",
     github: "https://github.com/marvellousz/browser-agent"
   }
 ]
@@ -96,12 +94,22 @@ export function ProjectsSection() {
 
                 {/* Links */}
                 <div className="flex gap-2 sm:gap-3">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" size="sm" className="flex items-center gap-2 cursor-pointer hover:bg-black hover:text-white hover:border-black transition-all duration-300">
-                      <ExternalLink className="h-4 w-4" />
-                      View Project
-                    </Button>
-                  </a>
+                  {project.link && (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" size="sm" className="flex items-center gap-2 cursor-pointer hover:bg-black hover:text-white hover:border-black transition-all duration-300">
+                        <ExternalLink className="h-4 w-4" />
+                        Live
+                      </Button>
+                    </a>
+                  )}
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" size="sm" className="flex items-center gap-2 cursor-pointer hover:bg-black hover:text-white hover:border-black transition-all duration-300">
+                        <Github className="h-4 w-4" />
+                        GitHub
+                      </Button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

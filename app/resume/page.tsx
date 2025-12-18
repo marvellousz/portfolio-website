@@ -17,8 +17,8 @@ export default function ResumePage() {
                        Pranav Murali
                      </h2>
                      <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-gray-600 text-sm sm:text-base">
-                <a href="mailto:pranavmurali024@gmail.com" className="hover:text-blue-600">
-                  pranavmurali024@gmail.com
+                <a href="mailto:pranavmurali.work@gmail.com" className="hover:text-blue-600">
+                  pranavmurali.work@gmail.com
                 </a>
                 <span>•</span>
                 <span>+91-8921764085</span>
@@ -80,7 +80,7 @@ export default function ResumePage() {
                       </p>
                     </div>
                     <span className="text-gray-500 font-medium">
-                      Aug 2025 - Present
+                      Aug 2025 - November 2025
                     </span>
                   </div>
                   <p className="text-gray-500 mb-3">Remote</p>
@@ -112,7 +112,7 @@ export default function ResumePage() {
                       </p>
                     </div>
                     <span className="text-gray-500 font-medium">
-                      Mar 2025 - Present
+                      Mar 2025 - November 2025
                     </span>
                   </div>
                   <p className="text-gray-500 mb-3">Remote</p>
@@ -226,7 +226,7 @@ export default function ResumePage() {
               </h3>
               
               <div className="space-y-6">
-                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-blue-50 to-indigo-50">
+                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-green-50 to-teal-50">
                   <div className="flex justify-between items-start mb-3">
                     <h4 className="text-lg font-bold text-black">
                       Memora
@@ -243,7 +243,7 @@ export default function ResumePage() {
                   </p>
                 </div>
 
-                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-green-50 to-teal-50">
+                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-purple-50 to-pink-50">
                   <div className="flex justify-between items-start mb-3">
                     <h4 className="text-lg font-bold text-black">
                       NullBin
@@ -260,7 +260,7 @@ export default function ResumePage() {
                   </p>
                 </div>
 
-                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-purple-50 to-pink-50">
+                <div className="border border-gray-200 rounded-lg p-6 bg-gradient-to-r from-blue-50 to-indigo-50">
                   <div className="flex justify-between items-start mb-3">
                     <h4 className="text-lg font-bold text-black">
                       Schedulo
@@ -270,10 +270,10 @@ export default function ResumePage() {
                     </span>
                   </div>
                          <p className="text-sm text-gray-600 mb-3">
-                    Next.js, TailwindCSS, Google Cloud Console
+                    Next.js, FastAPI, Supabase, LangChain, FAISS
                   </p>
                   <p className="text-gray-600">
-                    Developed a platform to auto-draft emails, schedule <strong>Google Meets</strong>, and sync events to <strong>Google Calendar</strong>, saving users <strong>5+ hours/week</strong>.
+                    Developed a full-stack knowledge platform supporting <strong>RSS ingestion</strong>, <strong>document parsing</strong>, <strong>research-paper search</strong>, and <strong>AI agents</strong> for automated summarization and insights.
                   </p>
                 </div>
               </div>
@@ -378,8 +378,19 @@ export default function ResumePage() {
                   <div>
                     <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Tools</h4>
                     <div className="flex flex-wrap gap-2">
-                      {['AWS', 'Git', 'GitHub', 'MongoDB', 'Firebase', 'MySQL', 'PostgreSQL', 'Docker', 'Postman'].map((skill) => (
+                      {['AWS', 'Azure', 'Docker', 'Git', 'GitHub', 'Postman'].map((skill) => (
                         <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-purple-100 text-purple-800 rounded-full text-xs sm:text-sm font-medium">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-bold text-black mb-2 text-sm sm:text-base">Databases</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {['MongoDB', 'MySQL', 'PostgreSQL', 'Firebase', 'Supabase'].map((skill) => (
+                        <span key={skill} className="px-2 py-1 sm:px-3 sm:py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs sm:text-sm font-medium">
                           {skill}
                         </span>
                       ))}
